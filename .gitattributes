@@ -1,0 +1,28 @@
+# Auto normalize line endings
+* text=auto
+
+# Force text file formats
+*.cs text
+*.shader text
+*.cginc text
+*.hlsl text
+*.compute text
+*.txt text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+*.asmdef text
+*.meta text
+
+# Treat binary files properly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.fbx binary
+*.prefab binary
+*.unity binary
+*.dll binary
