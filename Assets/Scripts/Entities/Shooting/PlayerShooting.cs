@@ -7,11 +7,14 @@ namespace TopDownShooter.Entities.Shooting
     {
         private float aimSpeed = 0.15f;
         private Quaternion playerRotation;
-        private Vector3 target;
+        private Vector3 target = Vector3.zero;
 
         public void Shoot(IWeapon weapon)
         {
-            weapon.Shoot(target);
+            Vector3 direction = (target - transform.position).normalized;
+            Vector3 heightAdjustedDirection = direction;
+            if (heightAdjustedDirection.y < 0) heightAdjustedDirection.y = 0;
+            weapon.Shoot(heightAdjustedDirection);
         }
 
         public void Aim(Vector2 mouseScreenPosition)

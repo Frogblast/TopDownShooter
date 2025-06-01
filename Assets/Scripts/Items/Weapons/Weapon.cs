@@ -4,13 +4,27 @@ namespace TopDownShooter.Items.Weapons
 {
     public class Weapon : MonoBehaviour, IWeapon
     {
-        public void Shoot(Vector3 target)
-        {
-            target += Vector3.up; // shoot above ground...
-            Debug.Log($"Weapon shoots at: {target}");
+        [SerializeField] float maxDistance = 30f;
 
-            Vector3 direction = (target - transform.position).normalized;
-            Debug.DrawRay(transform.position, direction * 30f, Color.red, 2f); // lasts 2 seconds in editor
+        public void Shoot(Vector3 direction)
+        {
+            Debug.Log($"Weapon shoots at: {direction}");
+
+            Color rayColor = Color.red;
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, direction, out hit, maxDistance))
+            {
+                Debug.Log($"Hit point was: {hit.point}");
+                GameObject hitObject = hit.collider.gameObject;
+
+                if (hitObject.CompareTag("Enemy"))
+                {
+                    Destroy(hitObject);
+                    rayColor = Color.yellow;
+                }
+            }
+            Debug.DrawRay(transform.position, direction * 30f, rayColor, 2f); // lasts 2 seconds in editor
+
         }
     }
 }
