@@ -4,14 +4,10 @@ namespace TopDownShooter.Items.Weapons
 {
     public class Weapon : MonoBehaviour, IWeapon
     {
-        public void Shoot()
+        Vector3 target;
+        public void Shoot(Vector3 target)
         {
-
-        }
-
-        public void Target()
-        {
-
+            Debug.Log($"Weapon shoots at: {target}");
         }
     }
 }

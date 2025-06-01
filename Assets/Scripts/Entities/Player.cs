@@ -15,7 +15,7 @@ namespace TopDownShooter.Entities
         {
             movement = GetComponent<IMovable>();
             aiming = GetComponent<IAimable>();
-            weapon = GetComponent<IWeapon>();
+            weapon = GetComponentInChildren<IWeapon>();
         }
 
         public void Aim(Vector2 direction)
@@ -25,7 +25,7 @@ namespace TopDownShooter.Entities
 
         public void Attack()
         {
-
+            weapon.Shoot(aiming.GetTarget());
         }
 
         public void Move(Vector2 direction)

@@ -1,8 +1,8 @@
-﻿namespace TopDownShooter.Items.Weapons
+﻿using UnityEngine;
+namespace TopDownShooter.Items.Weapons
 {
     internal interface IWeapon
     {
-        void Shoot();
-        void Target();
+        void Shoot(Vector3 target);
     }
 }
