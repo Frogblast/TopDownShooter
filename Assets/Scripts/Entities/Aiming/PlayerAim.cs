@@ -1,14 +1,18 @@
-﻿using UnityEngine;
+﻿using TopDownShooter.Items.Weapons;
+using UnityEngine;
 
 namespace TopDownShooter.Entities.Aiming
 {
-    public class PlayerAim : MonoBehaviour, IAimable
+    public class PlayerAim : MonoBehaviour, IShooting
     {
         private float aimSpeed = 0.15f;
         private Quaternion playerRotation;
         private Vector3 target;
 
-        Vector3 IAimable.GetTarget() => target;
+        public void Shoot(IWeapon weapon)
+        {
+            weapon.Shoot(target);
+        }
 
         public void Aim(Vector2 mouseScreenPosition)
         {
@@ -38,7 +42,5 @@ namespace TopDownShooter.Entities.Aiming
         {
             RotatePlayer();
         }
-
-
     }
 }

@@ -8,13 +8,13 @@ namespace TopDownShooter.Entities
     public class Player : MonoBehaviour
     {
         private IMovable movement;
-        private IAimable aiming;
+        private IShooting aiming;
         private IWeapon weapon;
 
         private void Awake()
         {
             movement = GetComponent<IMovable>();
-            aiming = GetComponent<IAimable>();
+            aiming = GetComponent<IShooting>();
             weapon = GetComponentInChildren<IWeapon>();
         }
 
@@ -25,7 +25,7 @@ namespace TopDownShooter.Entities
 
         public void Attack()
         {
-            weapon.Shoot(aiming.GetTarget());
+            aiming.Shoot(weapon);
         }
 
         public void Move(Vector2 direction)

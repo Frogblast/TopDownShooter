@@ -1,10 +1,11 @@
+using TopDownShooter.Items.Weapons;
 using UnityEngine;
 
 namespace TopDownShooter.Entities.Aiming
 {
-    public interface IAimable
+    public interface IShooting
     {
-        Vector3 GetTarget();
         void Aim(Vector2 direction);
+        void Shoot(IWeapon weapon);
     }
 }
