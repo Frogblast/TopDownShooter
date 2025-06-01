@@ -1,7 +1,7 @@
 using TopDownShooter.Items.Weapons;
 using UnityEngine;
 
-namespace TopDownShooter.Entities.Aiming
+namespace TopDownShooter.Entities.Shooting
 {
     public interface IShooting
     {

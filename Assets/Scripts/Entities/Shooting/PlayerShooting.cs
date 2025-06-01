@@ -1,9 +1,9 @@
 ﻿using TopDownShooter.Items.Weapons;
 using UnityEngine;
 
-namespace TopDownShooter.Entities.Aiming
+namespace TopDownShooter.Entities.Shooting
 {
-    public class PlayerAim : MonoBehaviour, IShooting
+    public class PlayerShooting : MonoBehaviour, IShooting
     {
         private float aimSpeed = 0.15f;
         private Quaternion playerRotation;
