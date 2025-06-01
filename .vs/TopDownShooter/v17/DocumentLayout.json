@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Dev\\UnityProjects\\TopDownShooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\assets\\scripts\\entities\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|c:\\dev\\unityprojects\\topdownshooter\\assets\\scripts\\controls\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controls\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|c:\\dev\\unityprojects\\topdownshooter\\assets\\scripts\\entities\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerControl.cs",
+              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\Assets\\Scripts\\Controls\\PlayerControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controls\\PlayerControl.cs",
+              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\Assets\\Scripts\\Controls\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controls\\PlayerControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:16:40.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
