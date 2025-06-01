@@ -21,7 +21,8 @@ namespace TopDownShooter.Entities.Movement
 
         private void FixedUpdate()
         {
-            rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.deltaTime);
+           // rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.deltaTime);
+           transform.Translate(moveDirection*moveSpeed*Time.deltaTime, Space.World);
         }
     }
 }

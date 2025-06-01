@@ -1,6 +1,7 @@
 using UnityEngine;
 using TopDownShooter.Entities.Aiming;
 using TopDownShooter.Entities.Movement;
+using TopDownShooter.Items.Weapons;
 
 namespace TopDownShooter.Entities
 {
@@ -8,11 +9,13 @@ namespace TopDownShooter.Entities
     {
         private IMovable movement;
         private IAimable aiming;
+        private IWeapon weapon;
 
         private void Awake()
         {
             movement = GetComponent<IMovable>();
             aiming = GetComponent<IAimable>();
+            weapon = GetComponent<IWeapon>();
         }
 
         public void Aim(Vector2 direction)
@@ -22,7 +25,7 @@ namespace TopDownShooter.Entities
 
         public void Attack()
         {
-            throw new System.NotImplementedException();
+
         }
 
         public void Move(Vector2 direction)

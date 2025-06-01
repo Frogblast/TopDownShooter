@@ -10,7 +10,7 @@ namespace TopDownShooter.Input
         private IEntityControl controller;
 
         private InputAction moveAction;
-        private InputAction aimAction;
+     //   private InputAction aimAction;
         private InputAction attackAction;
 
         private void OnEnable() => inputActions.FindActionMap("Player").Enable();
@@ -21,18 +21,19 @@ namespace TopDownShooter.Input
             controller = GetComponent<PlayerControl>();
 
             moveAction = inputActions.FindAction("Move");
-            aimAction = inputActions.FindAction("Aim");
+        //    aimAction = inputActions.FindAction("Aim");
             attackAction = inputActions.FindAction("Attack");
         }
 
         private void Update()
         {
             controller.Move(moveAction.ReadValue<Vector2>());
-            controller.Look(aimAction.ReadValue<Vector2>());
+        //    controller.Look(aimAction.ReadValue<Vector2>());
             if (attackAction.WasPressedThisFrame())
             {
                 controller.Attack();
             }
+            controller.Look(Mouse.current.position.ReadValue()); // Only works for mouse. Add separate logic to handle controller.
         }
     }
 }

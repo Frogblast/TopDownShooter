@@ -1,3 +1,4 @@
+using TopDownShooter.Items.Weapons;
 using UnityEngine;
 
 namespace TopDownShooter.Entities.Aiming

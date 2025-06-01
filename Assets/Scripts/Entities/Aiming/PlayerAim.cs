@@ -1,14 +1,36 @@
+﻿using TopDownShooter.Items.Weapons;
 using UnityEngine;
 
 namespace TopDownShooter.Entities.Aiming
 {
     public class PlayerAim : MonoBehaviour, IAimable
     {
-        private float aimSpeed = 1f;
+        private float aimSpeed = 0.15f;
+        private Quaternion playerRotation;
 
-        public void Aim(Vector2 direction)
+        public void Aim(Vector2 mouseScreenPosition)
         {
-            Debug.Log($"Aim direction is: {direction}");
+            Ray ray = Camera.main.ScreenPointToRay(mouseScreenPosition);
+
+            if (Physics.Raycast(ray, out RaycastHit hitInfo, Mathf.Infinity))
+            {
+                Vector3 hitPoint = hitInfo.point;
+                Vector3 direction = hitPoint - transform.position;
+
+                if (direction.sqrMagnitude > Mathf.Epsilon)
+                {
+                    // Optional: constrain player object on y
+                    direction.y = 0f;
+                    playerRotation = Quaternion.LookRotation(direction);
+                }
+            }
+        }
+
+
+        private void FixedUpdate()
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, playerRotation, aimSpeed);
+            
         }
     }
 }
