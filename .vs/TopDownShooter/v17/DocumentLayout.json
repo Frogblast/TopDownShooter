@@ -1,34 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\",
+  "WorkspaceRootPath": "C:\\Dev\\UnityProjects\\TopDownShooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|c:\\dev\\unityprojects\\topdownshooter\\topdownshooter\\assets\\scripts\\entities\\aiming\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\aiming\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\assets\\scripts\\entities\\aiming\\iaimable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\aiming\\iaimable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\assets\\scripts\\entities\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\assets\\scripts\\entities\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\assets\\scripts\\entities\\movement\\imovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\movement\\imovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\assets\\scripts\\input\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\input\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\assets\\scripts\\controls\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controls\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\assets\\scripts\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3540D610-CBC1-E541-ADC9-3337CB6145AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerAim.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Aiming\\PlayerAim.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Aiming\\PlayerAim.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Aiming\\PlayerAim.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entities\\Aiming\\PlayerAim.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T19:45:51.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAimable.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Aiming\\IAimable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Aiming\\IAimable.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Aiming\\IAimable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entities\\Aiming\\IAimable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T19:44:01.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
+              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Entities\\Movement\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T19:09:34.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IMovable.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\IMovable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Movement\\IMovable.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Movement\\IMovable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entities\\Movement\\IMovable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T19:08:32.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InputHandler.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Input\\InputHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\InputHandler.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Input\\InputHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Input\\InputHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:06:01.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerControl.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Controls\\PlayerControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controls\\PlayerControl.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Controls\\PlayerControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controls\\PlayerControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T18:25:05.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Player.cs",
-              "ToolTip": "C:\\Dev\\UnityProjects\\TopDownShooter\\TopDownShooter\\Assets\\Scripts\\Entities\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entities\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:02:37.652Z",
               "EditorCaption": ""
             }
           ]
