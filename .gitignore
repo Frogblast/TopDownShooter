@@ -1,6 +1,10 @@
 # Visual Studio
 .vs/
 
+# User settings
+/UserSettings/
+
+
 # Copilot / AI index files (optional, but recommended)
 **/CopilotIndices/
 **/*.db
