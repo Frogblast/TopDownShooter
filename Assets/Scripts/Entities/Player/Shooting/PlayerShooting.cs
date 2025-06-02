@@ -1,7 +1,7 @@
 ﻿using TopDownShooter.Items.Weapons;
 using UnityEngine;
 
-namespace TopDownShooter.Entities.Shooting
+namespace TopDownShooter.Entities.Player
 {
     public class PlayerShooting : MonoBehaviour, IShooting
     {

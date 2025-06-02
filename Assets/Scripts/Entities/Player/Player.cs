@@ -1,11 +1,14 @@
 using UnityEngine;
-using TopDownShooter.Entities.Shooting;
 using TopDownShooter.Entities.Movement;
 using TopDownShooter.Items.Weapons;
 
-namespace TopDownShooter.Entities
+/*
+Player is controlled by an IEntityControl.
+Player delegates tasks to its respective components.
+ */
+namespace TopDownShooter.Entities.Player
 {
-    public class Player : MonoBehaviour
+    public class Player : MonoBehaviour, IEntity
     {
         private IMovable movement;
         private IShooting shooting;

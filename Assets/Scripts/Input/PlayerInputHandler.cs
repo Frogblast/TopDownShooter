@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 namespace TopDownShooter.Input
 {
-    public class InputHandler : MonoBehaviour
+    public class PlayerInputHandler : MonoBehaviour
     {
         public InputActionAsset inputActions;
         private IEntityControl controller;
@@ -25,7 +25,7 @@ namespace TopDownShooter.Input
 
         private void Awake()
         {
-            controller = GetComponent<PlayerControl>();
+            controller = GetComponent<EntityControl>();
 
             moveAction = inputActions.FindAction("Move");
             aimAction = inputActions.FindAction("Aim");

@@ -1,23 +1,21 @@
 using UnityEngine;
-using TopDownShooter.Entities;
 
 /*
-Use this for controlling a player gameobject. 
-For enemies, implement IEntityControl and make a controller for the enemy instead.
+Controls any IEntity, player, enemy, npc
 */
 namespace TopDownShooter.Controls
 {
-    public class PlayerControl : MonoBehaviour, IEntityControl
+    public class EntityControl : MonoBehaviour, IEntityControl
     {
-        private Player player;
+        private IEntity entity;
 
         private void Awake()
         {
-            player = GetComponent<Player>();
+            entity = GetComponent<IEntity>();
         }
 
-        public void Move(Vector2 direction) => player.Move(direction);
-        public void Aim(Vector2 direction) => player.Aim(direction);
-        public void Attack() => player.Attack();
+        public void Move(Vector2 direction) => entity.Move(direction);
+        public void Aim(Vector2 direction) => entity.Aim(direction);
+        public void Attack() => entity.Attack();
     }
 }
