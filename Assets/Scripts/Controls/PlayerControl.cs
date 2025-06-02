@@ -17,7 +17,7 @@ namespace TopDownShooter.Controls
         }
 
         public void Move(Vector2 direction) => player.Move(direction);
-        public void Look(Vector2 direction) => player.Aim(direction);
+        public void Aim(Vector2 direction) => player.Aim(direction);
         public void Attack() => player.Attack();
     }
 }

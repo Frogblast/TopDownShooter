@@ -11,10 +11,10 @@ namespace TopDownShooter.Entities.Shooting
 
         public void Shoot(IWeapon weapon)
         {
-            Vector3 direction = (target - transform.position).normalized;
-            Vector3 heightAdjustedDirection = direction;
-            if (heightAdjustedDirection.y < 0) heightAdjustedDirection.y = 0;
-            weapon.Shoot(heightAdjustedDirection);
+            Vector3 heightAdjustedTarget = target;
+            if (heightAdjustedTarget.y < 0) heightAdjustedTarget.y = 0;
+            heightAdjustedTarget.y -= 0.5f; // Shoot slightly below the clicked surface in order to hit the enemy collider when clicking on top of them
+            weapon.Shoot(heightAdjustedTarget.normalized);
         }
 
         public void Aim(Vector2 mouseScreenPosition)
@@ -23,10 +23,7 @@ namespace TopDownShooter.Entities.Shooting
 
             if (Physics.Raycast(ray, out RaycastHit hitInfo, Mathf.Infinity))
             {
-                Vector3 hitPoint = hitInfo.point;
-                Vector3 direction = hitPoint - transform.position;
-
-                target = direction;
+                target = hitInfo.point - transform.position;
             }
         }
 
