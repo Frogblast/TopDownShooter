@@ -1,3 +1,4 @@
+using TopDownShooter.Entities.Player;
 using UnityEngine;
 
 /*
@@ -5,17 +6,17 @@ Controls any IEntity, player, enemy, npc
 */
 namespace TopDownShooter.Controls
 {
-    public class EntityControl : MonoBehaviour, IEntityControl
+    public class PlayerControl : MonoBehaviour, IPlayerControl
     {
-        private IEntity entity;
+        private IPlayer player;
 
         private void Awake()
         {
-            entity = GetComponent<IEntity>();
+            player = GetComponent<IPlayer>();
         }
 
-        public void Move(Vector2 direction) => entity.Move(direction);
-        public void Aim(Vector2 direction) => entity.Aim(direction);
-        public void Attack() => entity.Attack();
+        public void Move(Vector2 direction) => player.Move(direction);
+        public void Aim(Vector2 direction) => player.Aim(direction);
+        public void Attack() => player.Attack();
     }
 }

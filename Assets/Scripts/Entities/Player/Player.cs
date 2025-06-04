@@ -3,12 +3,12 @@ using TopDownShooter.Entities.Movement;
 using TopDownShooter.Items.Weapons;
 
 /*
-Player is controlled by an IEntityControl.
+Player is controlled by an IPlayerControl.
 Player delegates tasks to its respective components.
  */
 namespace TopDownShooter.Entities.Player
 {
-    public class Player : MonoBehaviour, IEntity
+    public class Player : MonoBehaviour, IPlayer
     {
         private IMovable movement;
         private IShooting shooting;

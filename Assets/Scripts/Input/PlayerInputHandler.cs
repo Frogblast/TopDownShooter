@@ -7,7 +7,7 @@ namespace TopDownShooter.Input
     public class PlayerInputHandler : MonoBehaviour
     {
         public InputActionAsset inputActions;
-        private IEntityControl controller;
+        private IPlayerControl controller;
 
         private InputAction moveAction;
         private InputAction aimAction;
@@ -25,7 +25,7 @@ namespace TopDownShooter.Input
 
         private void Awake()
         {
-            controller = GetComponent<EntityControl>();
+            controller = GetComponent<PlayerControl>();
 
             moveAction = inputActions.FindAction("Move");
             aimAction = inputActions.FindAction("Aim");
